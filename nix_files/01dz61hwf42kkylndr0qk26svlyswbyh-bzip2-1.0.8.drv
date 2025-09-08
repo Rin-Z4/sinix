@@ -1,0 +1,60 @@
+Derive(
+  [
+    ("out","/nix/store/zrnqzhcvlpiycqbswl0w172y4bpn0lb4-bzip2-1.0.8","",""),
+    ("test_archive","/nix/store/slpdqm3wlhwbkzyijjz3xpifa219ac0x-bzip2-1.0.8.tar.gz","sha256","ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269")
+  ],
+  [
+    ("/nix/store/05q48dcd4lgk4vh7wyk330gr2fr082i2-bootstrap-tools.drv",["out"])
+  ],
+  [
+    "/nix/store/lpw1q2ska8qrwyc4fnwfb0iliklcygrv-bzip2-1.0.6.2-autoconfiscated.patch",
+    "/nix/store/shkw4qm9qcw5sc5n1k5jznc83ny02r39-default-builder.sh"
+  ],
+  "x86_64-linux",
+  "/nix/store/razasrvdg7ckplfmvdxv4ia3wbayr94s-bootstrap-tools/bin/bash",
+  [
+    "-e",
+    "/nix/store/vj1c3wf9c11a0qs6p3ymfvrnsdgsdcbq-source-stdenv.sh"
+  ],
+  [
+    ("__structuredAttrs",""),
+    ("bin","/nix/store/1abbyfv3bpxalfjfgpmwg8jcy931bf76-bzip2-1.0.8-bin"),
+    ("buildInputs",""),
+    ("builder","/nix/store/razasrvdg7ckplfmvdxv4ia3wbayr94s-bootstrap-tools/bin/bash"),
+    ("cmakeFlags",""),
+    ("configureFlags",""),
+    ("depsBuildBuild",""),
+    ("depsBuildBuildPropagated",""),
+    ("depsBuildTarget",""),
+    ("depsBuildTargetPropagated",""),
+    ("depsHostHost",""),
+    ("depsHostHostPropagated",""),
+    ("depsTargetTarget",""),
+    ("depsTargetTargetPropagated",""),
+    ("dev","/nix/store/6xdqw12jqln2zsbylw1jvcyazblfsrx4-bzip2-1.0.8-dev"),
+    ("doCheck",""),
+    ("doInstallCheck",""),
+    ("dontDisableStatic",""),
+    ("enableParallelBuilding","1"),
+    ("enableParallelChecking","1"),
+    ("enableParallelInstalling","1"),
+    ("man","/nix/store/yq76x7ha0rv3mn9vxrar53zlkmxlkdas-bzip2-1.0.8-man"),
+    ("mesonFlags",""),
+    ("name","bzip2-1.0.8"),
+    ("nativeBuildInputs","/nix/store/4mai2lx9i23i1n35n6rd3bbky97vnf65-autoreconf-hook"),
+    ("out","/nix/store/zrnqzhcvlpiycqbswl0w172y4bpn0lb4-bzip2-1.0.8"),
+    ("outputs","bin dev out man"),
+    ("patchFlags","-p0"),
+    ("patches","/nix/store/lpw1q2ska8qrwyc4fnwfb0iliklcygrv-bzip2-1.0.6.2-autoconfiscated.patch"),
+    ("pname","bzip2"),
+    ("postInstall","ln -s $out/lib/libbz2.so.1.0.* $out/lib/libbz2.so.1.0\n"),
+    ("postPatch","patch <<-EOF\n  --- configure.ac\n  +++ configure.ac\n  @@ -3,3 +3,3 @@\n  -AC_INIT([bzip2], [1.0.6], [Julian Seward <jseward@bzip.org>])\n  +AC_INIT([bzip2], [1.0.8], [Julian Seward <jseward@bzip.org>])\n   BZIP2_LT_CURRENT=1\n  -BZIP2_LT_REVISION=6\n  +BZIP2_LT_REVISION=8\nEOF\n"),
+    ("propagatedBuildInputs",""),
+    ("propagatedNativeBuildInputs",""),
+    ("src","/nix/store/slpdqm3wlhwbkzyijjz3xpifa219ac0x-bzip2-1.0.8.tar.gz"),
+    ("stdenv","/nix/store/404fmaj9krwp6qr7zl6vs7i3j7lc02wg-bootstrap-stage4-stdenv-linux"),
+    ("strictDeps","1"),
+    ("system","x86_64-linux"),
+    ("version","1.0.8")
+  ]
+)

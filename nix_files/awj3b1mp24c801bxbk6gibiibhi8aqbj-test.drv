@@ -1,0 +1,20 @@
+Derive(
+  [
+    ("out","/nix/store/m61i9hnfmhbj6qdy99gvz81npw1rq4nh-test","","")
+  ],
+  [],
+  [
+    "/nix/store/a7w0y8j80xl737cnc6gmlbb9cpwxiwi2-builder.sh"
+  ],
+  "x86_64-linux",
+  "/bin/sh",
+  [
+    "/nix/store/a7w0y8j80xl737cnc6gmlbb9cpwxiwi2-builder.sh"
+  ],
+  [
+    ("builder","/bin/sh"),
+    ("name","test"),
+    ("out","/nix/store/m61i9hnfmhbj6qdy99gvz81npw1rq4nh-test"),
+    ("system","x86_64-linux")
+  ]
+)
