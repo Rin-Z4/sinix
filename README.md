@@ -4,7 +4,9 @@ This project aims to have similar goals of reproducibility and declarative
 dependencies to Nix with some major differences:
 
 - Build scripts don't have a custom language - they can be written in anything
-as long as the output conforms to the derivation schema
+as long as the output conforms to the derivation schema. The scripts should
+produce the same derivations given the same inputs, however there can be ones
+that check for e.g. new software version releases.
 
 - No sqlite database, the filesystem structure serves as the database
 
